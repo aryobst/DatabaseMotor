@@ -38,7 +38,7 @@
 
         @foreach($motor as $m)
         <form action="/motor/update" method="post">
-            <!-- {{ csrf_field() }} -->
+            {{ csrf_field() }} 
             <!-- Nama <input type="text" required="required" name="nama" value="{{ $m->motor_nama }}"> <br />
                 Jenis <input type="text" required="required" name="jenis" value="{{ $m->motor_jenis }}"> <br />
                 Stok <input type="number" required="required" name="stok" value="{{ $m->motor_stok }}"> <br />

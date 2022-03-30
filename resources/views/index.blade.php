@@ -48,7 +48,7 @@
                     <td>{{ $m->motor_jenis }}</td>
                     <td>{{ $m->motor_stok }}</td>
                     <td>{{ $m->motor_merek }}</td>
-                    <td class="btn-group btn-group-sm" role="group" aria-label="Basic mixed styles example">
+                    <td class="btn-group btn-group-sm w-100" role="group" aria-label="Basic mixed styles example">
                         <a href="/motor/edit/{{ $m->motor_id }}" class="btn btn-outline-primary">Edit</a>
                         <a href="/motor/hapus/{{ $m->motor_id }}" class="btn btn-outline-danger">Hapus</a>
                     </td>

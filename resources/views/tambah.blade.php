@@ -37,7 +37,7 @@
         <a href="/motor" class="btn btn-dark mb-4"> Kembali</a>
 
         <form action="/motor/store" method="post">
-            <!-- {{ csrf_field() }} -->
+            {{ csrf_field() }}
             <!-- Nama <input type="text" name="nama" required="required"> <br />
             Jenis <input type="text" name="jenis" required="required"> <br />
             Stok <input type="number" name="stok" required="required"> <br />
@@ -61,7 +61,7 @@
             <div class="form-floating">
                 <textarea name="merek" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"
                     required="required"></textarea>
-                <label for="floatingTextarea">Comments</label>
+                <label for="floatingTextarea">Merek</label>
             </div>
 
             <input type="submit" class="btn btn-dark mt-4 float-end" value="Simpan Data">
